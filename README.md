@@ -1,9 +1,9 @@
 # Widget Clima
-<img src='public\Images\kruger.png' width='100'>
+<img src='public\image\kruger.png' width='100'>
 
 In this repository you can find the code of a page containing a digital library project for Kuger Star.
 
-<img src='public\Images\biblioteca.png'>
+<img src='public\image\biblioteca.png'>
 
 ## Built With
 
