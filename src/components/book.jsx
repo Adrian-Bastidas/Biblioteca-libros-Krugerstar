@@ -11,12 +11,13 @@ export default function Book({ item }) {
     flexDirection: "column",
     alignItems: "center",
     textAlign: "center",
+    color:'black'
   };
   return (
     <div style={bookContainerStyle}>
       <Link to={`/view/${item.id}`} style={bookInfoStyle}>
+      <div>{item.title}</div>
         <img src={item.cover} width="200" />
-        <div>{item.title}</div>
       </Link>
     </div>
   );

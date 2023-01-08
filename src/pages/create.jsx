@@ -16,21 +16,25 @@ export default function Create() {
     formContainer: {
       width: "400px",
       margin: "0 auto",
+      border: "none"
     },
     container: {
       display: "flex",
       flexDirection: "column",
       gap: "5px",
       margin: "15px 0",
+      border: "none"
     },
     title: {
       fontSize: "16px",
       textAlign: "left",
+      border: "none"
     },
     input: {
       padding: "10px",
       borderRadius: "5px",
       fontSize: "16px",
+      border: "none"
     },
   };
 
@@ -152,9 +156,9 @@ export default function Create() {
             padding: "15px 20px",
             minWidth: "200px",
             border: "none",
+            color:"white",
             borderRadius: "5px",
-            backgroundColor: "#1e9638",
-            color: "white",
+            backgroundColor: "#2957ba",
             fontWeigth: "bolder",
             fontSize: "18px",
           }}

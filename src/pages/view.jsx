@@ -15,12 +15,13 @@ export default function View() {
 
   return (
     <Layout>
-      <h2>{item?.title}</h2>
-      <div>{item?.cover ? <img src={item.cover} width="400" /> : ""}</div>
-      <div>{item?.author}</div>
-      <div>{item?.intro}</div>
-      <div>{item?.completed ? "Completado" : "No terminado"}</div>
-      <div>{item?.review}</div>
+      <h2 className="tit">{item?.title}</h2>
+      <div className="image">{item?.cover ? <img src={item.cover} width="400" /> : ""}</div>
+      <div className="nombre">{item?.author}</div>
+      <div className="estado">{item?.completed ? "Completado" : "No terminado"}</div>
+      <div className="intro">{item?.intro}</div>
+      <div className="review">{item?.review}</div>
+
     </Layout>
   );
 }

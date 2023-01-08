@@ -5,10 +5,11 @@ export default function NavBar() {
     padding: "10px",
     display: "block",
     fontSize: "18px",
+    color:"black"
   };
 
   const navContainerStyle = {
-    backgroundColor: "#181d27",
+    backgroundColor: "#f8f9fa",
     padding: "10px",
     display: "flex",
     gap: "5px",

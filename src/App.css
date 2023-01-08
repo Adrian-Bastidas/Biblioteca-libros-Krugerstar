@@ -14,10 +14,9 @@
 }
 
 body {
-  background-color: #282c34;
+  background-color: #e9eaed;
 
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -31,4 +30,27 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+.image{
+  margin-left: -70%;
+  margin-top: -5%;
+}
+.tit{
+  margin-left: 20%;
+  margin-top: -5%;
+}
+.nombre{
+  margin-top:-40%;
+}
+.intro{
+  width: 50%;
+  margin-left: 40%;
+  text-align: justify;
+  padding: 2%;
+}
+.review{
+  width: 50%;
+  margin-left: 40%;
+  text-align: justify;
+  padding: 2%;
 }
